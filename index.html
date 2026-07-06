@@ -107,19 +107,153 @@
             </div>
         </article>
 
-        <section class="game-tips">
-            <h5>HOW TO WIN THE GAME</h5>
-            <div class="list-of-strats">
-                <ol>
-                    <li>Pic the right Hero</li>
-                    <li>Farm Efficiently</li>
-                    <li>Communicate with Your Team</li>
-                    <li>Secure Objectives</li>
-                    <li>Maintain Vision</li>
-                </ol>
-            </div>
-        </section>
+        <div class="section-aside">
+            <section class="game-tips">
+                <h5>HOW TO WIN THE GAME</h5>
+                <div class="list-of-strats">
+                    <div class="strat">
+                        <span class="circle">1</span>
+                        <p>Choose the Right Hero.</p>
+                    </div>
 
+                    <div class="strat">
+                        <span class="circle">2</span>
+                        <p>Farm Efficiently.</p>
+                    </div>
+
+                    <div class="strat">
+                        <span class="circle">3</span>
+                        <p>Communicate with Your Team.</p>
+                    </div>
+
+                    <div class="strat">
+                        <span class="circle">4</span>
+                        <p>Secure Objectives.</p>
+                    </div>
+
+                    <div class="strat">
+                        <span class="circle">5</span>
+                        <p>Maintain Vision.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <aside class="input-fields">
+                <div class="title"><p>JOIN THE DOTA 2 COMMUNITY</p></div>
+                <div class="fillup-description"><p>Ready to enter the Battlefield? Register below to join the Dota 2 <br> community and share your favorite heroes and roles.</p></div>
+                <div class="input-details">
+                    <form action="">
+                        <div class="input-for-name">
+                            <label for="pname">Player Name</label>
+                            <input type="text" id="pname" name="pname" placeholder="Enter your in-game name" required> <br>
+                        </div>
+
+                        <div class="input-for-email">
+                            <label for="uEmail">Email Address</label>
+                            <input type="email" id="uEmail" name="uEmail" placeholder="Example@gmail.com" required>
+                        </div>
+
+                        <div class="select-region">
+                            <label for="country">Country</label>
+                            <select name="country" id="country" required>
+                                <option value="" selected disabled>Select your country</option>
+                                <optgroup label="Southeast Asia">
+                                    <option value="PH">Philippines</option>
+                                    <option value="ML">Malaysia</option>
+                                    <option value="SG">Singapore</option>
+                                    <option value="ID">Indonesia</option>
+                                    <option value="TL">Thailand</option>
+                                    <option value="VN">Vietnam</option>
+                                </optgroup>
+
+                                <optgroup label="East Asia">
+                                    <option value="CN">China</option>
+                                    <option value="MG">Mongolia</option>
+                                </optgroup>
+
+                                <optgroup label="South Asia">
+                                    <option value="IN">India</option>
+                                    <option value="PK">Pakistan</option>
+                                    <option value="BD">Bangladesh</option>
+                                </optgroup>
+
+                                <optgroup label="Eastern Europe & CIS">
+                                    <option value="RU">Russia</option>
+                                    <option value="UR">Ukraine</option>
+                                    <option value="KZ">Kazakstan</option>
+                                    <option value="RM">Romania</option>
+                                    <option value="SB">Serbia</option>
+                                    <option value="BG">Bulgaria</option>
+                                    <option value="PL">Poland</option>
+                                </optgroup>
+
+                                <optgroup label="Western & North Europe">
+                                    <option value="GM">Germany</option>
+                                    <option value="SD">Sweden</option>
+                                    <option value="FL">Finland</option>
+                                    <option value="DM">Denmark</option>
+                                    <option value="NW">Norway</option>
+                                    <option value="UK">United Kingdom</option>
+                                    <option value="FR">France</option>
+                                </optgroup>
+
+                                <optgroup label="North America">
+                                    <option value="US">United States</option>
+                                    <option value="CD">Canada</option>
+                                </optgroup>
+
+                                <optgroup label="South America">
+                                    <option value="BZ">Brazil</option>
+                                    <option value="PR">Peru</option>
+                                    <option value="AT">Argentina</option>
+                                    <option value="CL">Chile</option>
+                                </optgroup>
+
+                                <optgroup label="Ocenia">
+                                    <option value="AL">Australia</option>
+                                    <option value="NZ">New Zealand</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="select-favhero">
+                            <label for="fav-role">Favorite Role</label>
+                            <select name="fav-role" id="fav-role">
+                                <option value="" selected disabled>Select your favorite role</option>
+                                <option value="carry">Carry</option>
+                                <option value="midlane">Mid Lane</option>
+                                <option value="offlane">Off Lane</option>
+                                <option value="support">Support</option>
+                                <option value="hardsupport">Hard Support</option>
+                            </select>
+                        </div>
+
+                        <div class="experience-level">
+                            <label class="experience-label" for="Experience-level">Experience Level</label>
+
+                            <input class="radio-button" type="radio" id="beginner" name="Experience-level">
+                            <label class="radio-label" for="beginner">Beginner</label>
+
+                            <input class="radio-button" type="radio" id="intermediate" name="Experience-level">
+                            <label class="radio-label" for="intermediate">Intermediate</label>
+
+                            <input class="radio-button" type="radio" id="advanced" name="Experience-level">
+                            <label class="radio-label" for="advanced">Advanced</label>
+                        </div>
+
+                        <div class="comments">
+                            <label for="comments">Comment</label>
+                            <textarea name="comments" id="comments"></textarea>
+                        </div>
+
+                        <div class="buttons">
+                            <button class="join" type="submit" value="input-details">JOIN NOW</button> <button class="clear" type="reset" value="input-details">RESET</button>
+                        </div>
+                    </form>
+                </div>
+            </aside>
+        </div>
         <article class="game-info">
             <h6>GAME INFORMATION</h6>
             <table>
@@ -171,6 +305,12 @@
 
             </table>
         </article>
+
+        <section class="dota2-website">
+            <p class="website-title">OFFICIAL DOTA 2 WEBSITE</p>
+            <p class="description-of-website">Discover everything Dota 2 has to offer through the official website. Browse hero guides, read the latest patch notes, watch professional tournaments, and stay updated with new events.</p>
+            <button class="link-to-website"><a href="https://www.dota2.com/home">Enter the Battlefield</a></button>
+        </section>
     </main>
 
     <footer>
