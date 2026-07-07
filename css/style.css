@@ -465,9 +465,9 @@ nav a:hover{
 
 .game-tips{
     background-image: url(/assets/images/tips-background.png);
-    background-position: center;
+    background-position: end;
     background-repeat: no-repeat;
-    height: 470px;
+    height: 740px;
     width: 40%;
     max-width: 600px;
     background-color: #141A21;
