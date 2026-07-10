@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    max-width: none;
+    padding: 60px 0;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+        padding-left: 50px;
+        padding-right: 50px;
+    border-radius: 14px;
+    background-image: url(/assets/heroes-images/heores-background-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0F141B;
+}
+header{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 145px;
+    padding-left: 40px;
+    padding-left: 40px;
+    background-color: #161B22;
+    border-radius: 14px;
+    border: solid 1px #5A1E1E;
+    box-shadow: 0px 4px 12px;
+}
+
+header .aboutme-logo img{
+    width: 180px;
+    height: auto;
+}
+header nav a{
+    text-decoration: none;
+    display: inline;
+    margin-right: 40px;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px ;   
+
+}
+
+header nav i{
+    color: #f5f5f5;
+    margin-right: 5px;
+    font-size: 16px;
+}
+header nav a:hover{
+    color: #D32F2F;
+}
+
+header nav .active{
+    color: #D32F2F;
+}
+
+main{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main .heroes-head{
+    padding-bottom: 70px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-bottom: 60px;
+}
+
+main .heroes-head h1{
+    padding-top: 60px;
+    font-family: "Cinzel", serif;
+    font-size: 42px;
+    color: #f5f5f5;
+}
+
+
+
+main .heroes-container{
+    height: 380px;
+    border: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+}
+
+main .heroes-container img{
+    height: 240px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.heroes-container .heroes-card{
+    width: 380px;
+    height: 520px;
+    background-color: #1D232D;
+    border: 1px solid #2A313C;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.heroes-card .stats{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heroes-card .sf-details h2{
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.heroes-card .sf-details .role-details{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #D32F2F;
+    text-align: center;
+}
+
+.heroes-card .sf-details .hero-details{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #C8D0DA;
+    line-height: 1.7;
+    text-align: center;
+}
+
