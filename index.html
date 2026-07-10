@@ -47,15 +47,12 @@
         </div>
         <div class="dota2-logo"><img src="assets/images/dota2-logo.png" alt=""></div>
     </header>
-    <nav>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">GAME IMAGE</a>
-            <a href="">HEROES</a>
-            <a href="">TIPS</a>
-            <a href="">GAME INFO</a>
-            <a href="">WEBSITE</a>
-            <a href="">JOIN</a>
+    <nav>   
+            <a href="/index.html">HOME</a>
+            <a href="/views/about-me.html">ABOUT ME</a>
+            <a href="/views/heroes.html">HEROES</a>
+            <a href="/views/game-info.html">GAME INFO</a>
+            <a href="/views/community.html">COMMUNITY</a>
     </nav>
 
     <main>
@@ -160,17 +157,17 @@
                 <div class="input-details">
                     <form action="">
                         <div class="input-for-name">
-                            <label for="pname">Player Name</label>
+                            <label for="pname">Player Name:</label>
                             <input type="text" id="pname" name="pname" placeholder="Enter your in-game name" required> <br>
                         </div>
 
                         <div class="input-for-email">
-                            <label for="uEmail">Email Address</label>
+                            <label for="uEmail">Email Address:</label>
                             <input type="email" id="uEmail" name="uEmail" placeholder="Example@gmail.com" required>
                         </div>
 
                         <div class="select-region">
-                            <label for="country">Country</label>
+                            <label for="country">Country:</label>
                             <select name="country" id="country" required>
                                 <option value="" selected disabled>Select your country</option>
                                 <optgroup label="Southeast Asia">
@@ -233,7 +230,7 @@
                         </div>
 
                         <div class="select-favhero">
-                            <label for="fav-role">Favorite Role</label>
+                            <label for="fav-role">Favorite Role:</label>
                             <select name="fav-role" id="fav-role">
                                 <option value="" selected disabled>Select your favorite role</option>
                                 <option value="carry">Carry</option>
@@ -245,20 +242,25 @@
                         </div>
 
                         <div class="experience-level">
-                            <label class="experience-label" for="Experience-level">Experience Level</label>
-
-                            <input class="radio-button" type="radio" id="beginner" name="Experience-level">
-                            <label class="radio-label" for="beginner">Beginner</label>
-
-                            <input class="radio-button" type="radio" id="intermediate" name="Experience-level">
-                            <label class="radio-label" for="intermediate">Intermediate</label>
-
-                            <input class="radio-button" type="radio" id="advanced" name="Experience-level">
-                            <label class="radio-label" for="advanced">Advanced</label>
+                            <label class="experience-label" for="Experience-level">Experience Level:</label>
+                            <div class="experience-container">
+                                <div class="beginner">
+                                    <input class="radio-button" type="radio" id="beginner" name="Experience-level">
+                                    <label class="radio-label" for="beginner">Beginner</label>
+                                </div>
+                                <div class="intermediate">
+                                    <input class="radio-button" type="radio" id="intermediate" name="Experience-level">
+                                    <label class="radio-label" for="intermediate">Intermediate</label>
+                                </div>
+                                <div class="advanced">
+                                    <input class="radio-button" type="radio" id="advanced" name="Experience-level">
+                                    <label class="radio-label" for="advanced">Advanced</label>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="comments">
-                            <label for="comments">Comment</label>
+                            <label for="comments">Comment:</label>
                             <textarea name="comments" id="comments"></textarea>
                         </div>
 

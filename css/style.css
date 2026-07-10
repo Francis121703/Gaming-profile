@@ -10,6 +10,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 
@@ -119,6 +120,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
+    border: solid 1px #5A1E1E;
 }
 
 nav a{
@@ -138,7 +140,7 @@ nav a:hover{
 .first-article{
     width: 100%;
     background:#1F2328 ;
-    border: #2A313C solid;
+    border: #5A1E1E solid;
     padding: 30px;
     height: 400px;
     margin-top: 30px;
@@ -181,7 +183,7 @@ nav a:hover{
     height: 650px;
     padding: 20px;
     border-radius: 12px;
-    border: #2A313C solid;
+    border: #5A1E1E solid;
     margin-left: auto;
     margin-right: auto;
     background-color: #141A21;
@@ -220,7 +222,7 @@ nav a:hover{
     max-width: 1500px;
     padding: 30px;
     background-color: #141A21;
-    border: 1px solid #2A313C;
+    border: 1px solid #5A1E1E;
     border-radius: 12px;
     margin-top: 30px;
     margin-left: auto;
@@ -240,13 +242,13 @@ nav a:hover{
     border-radius: 10px;
     padding: 12px;
     background-color: #1B2028;
-    border: 1px solid #2A313C;
+    border: 1px solid #5A1E1E;
 }
 
 .hero .hero-img img{
     width: 156px;
     height: 156px;
-    border: 1px solid #2A313C;
+    border: 1px solid #8B2A2A;
     border-radius: 8px;
 }
 
@@ -293,7 +295,7 @@ nav a:hover{
     padding: 30px;
     border-radius: 12px;
     background-color: #141A21;
-    border: 1px solid #2A313C;
+    border: 1px solid #5A1E1E;
     height: 740px;
     margin-top: 30px;
 }
@@ -328,7 +330,7 @@ nav a:hover{
     width: 100%;
     height: 48px;
     background-color: #1B2028;
-    border: 1px solid #2A313C;
+    border: 1px solid #8B2A2A;
     border-radius: 8px;
     padding-left: 15px;
     color: #F5F5F5;
@@ -347,7 +349,7 @@ nav a:hover{
     width: 100%;
     height: 48px;
     background-color: #1B2028;
-    border: 1px solid #2A313C;
+    border: 1px solid #8B2A2A;
     border-radius: 8px;
     padding-left: 15px;
     color: #F5F5F5;
@@ -366,7 +368,7 @@ nav a:hover{
     width: 100%;
     height: 48px;
     background-color: #1B2028;
-    border: 1px solid #2A313C;
+    border: 1px solid #8B2A2A;
     border-radius: 8px;
     padding-left: 15px;
     color: #F5F5F5;
@@ -385,7 +387,7 @@ nav a:hover{
     width: 100%;
     height: 48px;
     background-color: #1B2028;
-    border: 1px solid #2A313C;
+    border: 1px solid #8B2A2A;
     border-radius: 8px;
     padding-left: 15px;
     color: #F5F5F5;
@@ -424,7 +426,7 @@ nav a:hover{
     width: 100%;
     height: 110px;
     background-color: #1B2028;
-    border: 1px solid #2A313C;
+    border: 1px solid #8B2A2A;
     border-radius: 8px;
     padding: 15px;
     color: #F5F5F5;
@@ -446,7 +448,7 @@ nav a:hover{
     width: 120px;
     height: 48px;
     background-color: #2A313C;
-    border: 1px solid #4B5563;
+    border: 1px solid #8B2A2A;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -458,6 +460,13 @@ nav a:hover{
     margin-top: 30px;
     text-align: center;
 }
+
+.experience-container{
+    display: inline-flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+
 
 
 
@@ -471,7 +480,7 @@ nav a:hover{
     width: 40%;
     max-width: 600px;
     background-color: #141A21;
-    border: 1px solid #2A313C;
+    border: 1px solid #5A1E1E;
     border-radius: 12px;
     padding: 30px;
     margin-top: 30px;

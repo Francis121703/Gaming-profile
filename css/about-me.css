@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    max-width: 1280px;
+    margin: 40px auto;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 14px;
+    background-image: url(/assets/aboutme-images/about-me-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(22,27,34,.88);
+}
+header{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 145px;
+    padding-left: 40px;
+    padding-left: 40px;
+    background-color: #161B22;
+    border-radius: 14px;
+    border: solid 1px #5A1E1E;
+    box-shadow: 0px 4px 12px;
+}
+
+header .aboutme-logo img{
+    width: 180px;
+    height: auto;
+}
+header nav a{
+    text-decoration: none;
+    display: inline;
+    margin-right: 40px;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px ;   
+
+}
+
+header nav i{
+    color: #f5f5f5;
+    margin-right: 5px;
+    font-size: 16px;
+}
+header nav a:hover{
+    color: #D32F2F;
+}
+
+header nav .active{
+    color: #D32F2F;
+}  
+
+main{
+    width: 100%;
+    max-width: 1280px;
+    /* padding-top: 60px;
+    padding-bottom: 10px; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+main .title h1{
+    font-size: 46ppx;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+main .aboutme-details .p2{
+    width: 100%;
+    max-width: 900px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #B8C0CC;
+    margin-bottom: 50px;
+    
+}
+
+main .aboutme-details p{
+    width: 100%;
+    max-width: 900px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    color: #B8C0CC;
+    margin-bottom: 50px;
+}
+
+.info-box{
+    height: auto;
+    width: 100%;
+    max-width: 576px;
+    columns: 2;
+    gap: 15px;
+    height: 380px;
+}
+
+.info-box .role{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #5A1E1E;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-box .role .role-details h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #D32F2F;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-transform: Uppercase;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .role .role-details p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+
+.info-box .play-style{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #5A1E1E;
+    text-align: center;
+    margin-bottom: 10px;
+    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-box .play-style h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #D32F2F;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-transform: Uppercase;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .play-style p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+
+.info-box .favorite-mode{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #5A1E1E;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-box .favorite-mode h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #D32F2F;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-transform: Uppercase;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .favorite-mode p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+
+.info-box .play-time{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #5A1E1E;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-box .play-time h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #D32F2F;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-transform: Uppercase;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .play-time p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .achievements{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #5A1E1E;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-box .achievements h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #D32F2F;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    text-transform: Uppercase;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .achievements p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .motto{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #5A1E1E;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-box .motto h2{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #D32F2F;
+    margin-bottom: 8px;
+    text-transform: Uppercase;
+    font-family: "Cinzel", serif;
+}
+
+.info-box .motto p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+}
+
+
+
+
