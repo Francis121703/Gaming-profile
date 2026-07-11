@@ -13,7 +13,8 @@ body{
     padding-right: 50px;
     border-radius: 14px;
     background-image: url(/assets/aboutme-images/about-me-background.png);
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     background-color: rgba(22,27,34,.88);
 }
