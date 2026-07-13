@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+header{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 145px;
+    padding-left: 40px;
+    padding-left: 40px;
+    background-color: #161B22;
+    border-radius: 14px;
+    border: solid 1px #5A1E1E;
+    box-shadow: 0px 4px 12px;
+}
+
+header .aboutme-logo img{
+    width: 180px;
+    height: auto;
+}
+header nav a{
+    text-decoration: none;
+    display: inline;
+    margin-right: 40px;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px ;   
+
+}
+
+header nav i{
+    color: #f5f5f5;
+    margin-right: 5px;
+    font-size: 16px;
+}
+header nav a:hover{
+    color: #D32F2F;
+}
+
+header nav .active{
+    color: #D32F2F;
+}
+
+main .head{
+    height: 350px;
+    border-radius: 16px;
+    padding: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/gameinfo-images/background-of-main-head.png');
+    background-position:center center ;
+    background-repeat: no-repeat;
+}
+
+main .head h1{
+    font-family: "Cinzel", serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #F5F1E8;
+    letter-spacing: 2px;
+}
+
+main .head .subtitle{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #E53935;
+    margin-top: 10px;
+}
+
+main .head .head-details{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #C6CDD8;
+    width: 600px;
+}
+
+.game-overview .radiant-dire .radiant img{
+    height: 64px;
+    width: 64px;
+}
+
+.game-overview .radiant-dire .dire img{
+    height: 64px;
+    width: 64px;
+}
+
+.flex-1{
+    display: flex;
+}
+.flex-1 .game-overview{
+    width: 100%;
+    height: 320px;
+    padding: 28px;
+    border-radius: 16px;
+    background-color: #1C222D;
+    border: 1px solid #2E3642;
+}
+
+.flex-1 .game-overview h2{
+    font-family: "Cinzel", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #F5F1E8;
+    margin-bottom: 20px;
+}
+
+.flex-1 .game-overview .overview-details{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #C6CDD8;
+    line-height: 28px;
+    
+}
+
+
+
+
+.game-overview .radiant-dire{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-1 .map-overview-details .map-head img{
+    width: 450px;
+    height: 250px;
+}
+
+.flex-1 .game-modes{
+    width: 100%;
+    height: 320px;
+    padding: 28px;
+    border-radius: 16px;
+    background-color: #1C222D;
+    border: 1px solid #2E3642;
+}
+
+.flex-1 .how-to-win{
+    width: 100%;
+    height: 320px;
+    padding: 28px;
+    border-radius: 16px;
+    background-color: #1C222D;
+    border: 1px solid #2E3642;
+}
+
+.flex-1 .map-overview{
+    width: 100%;
+    height: 320px;
+    padding: 28px;
+    border-radius: 16px;
+    background-color: #1C222D;
+    border: 1px solid #2E3642;
+}
+
+
+
