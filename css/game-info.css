@@ -6,10 +6,11 @@
 
 body{
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 70px;
+    background-color: #10141C;
 }
 
 header{
@@ -58,118 +59,680 @@ header nav .active{
     color: #D32F2F;
 }
 
+main{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
 main .head{
     height: 350px;
     border-radius: 16px;
-    padding: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/gameinfo-images/background-of-main-head.png');
     background-position:center center ;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
 main .head h1{
     font-family: "Cinzel", serif;
-    font-size: 56px;
+    font-size: 64px;
     font-weight: 700;
-    color: #F5F1E8;
+    color: #F8F5F0;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 main .head .subtitle{
     font-family: "Poppins", sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    color: #E53935;
-    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E34234;
+    margin-bottom: 18px;
 }
 
 main .head .head-details{
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 32px;
-    color: #C6CDD8;
-    width: 600px;
+    line-height: 34px;
+    color: #f5f5f5;
+    max-width: 700px;
 }
 
 .game-overview .radiant-dire .radiant img{
-    height: 64px;
-    width: 64px;
+    height: 80px;
+    width: 80px;
 }
 
 .game-overview .radiant-dire .dire img{
-    height: 64px;
-    width: 64px;
+    height: 80px;
+    width: 80px;
 }
 
 .flex-1{
+    margin-top: 60px;
     display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 .flex-1 .game-overview{
-    width: 100%;
-    height: 320px;
-    padding: 28px;
-    border-radius: 16px;
-    background-color: #1C222D;
-    border: 1px solid #2E3642;
+    width: 24%;
+    min-width: 280px;
+    height: 540px;
+    padding: 30px;
+    border-radius: 18px;
+    background-color: #1D2430;
+    border: 1px solid #8B1E1E;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
 }
 
 .flex-1 .game-overview h2{
     font-family: "Cinzel", serif;
     font-size: 32px;
     font-weight: 700;
-    color: #F5F1E8;
-    margin-bottom: 20px;
+    color: #F5F1EA;
+    margin-bottom: 30px;
 }
 
 .flex-1 .game-overview .overview-details{
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    color: #C6CDD8;
-    line-height: 28px;
-    
+    font-size: 17px;
+    font-weight: 400;
+    color: #D5D7DB;
+    line-height: 32px;
 }
 
-
-
-
 .game-overview .radiant-dire{
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* gap: 24px; */
+    margin-bottom: 30px;
 }
 
-.flex-1 .map-overview-details .map-head img{
-    width: 450px;
-    height: 250px;
+.game-overview .radiant-dire .radiant h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #66D34D;
+    font-weight: 600;
+    /* line-height: 28px; */
+    text-align: center;
+}
+
+.game-overview .radiant-dire .radiant-sub{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    color: #D8D8D8;
+}
+
+.game-overview .radiant-dire .dire h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #E34234;
+    font-weight: 600;
+    /* line-height: 28px; */
+    text-align: center;
+}
+
+.game-overview .radiant-dire .dire-sub{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    color: #D8D8D8;
+}
+
+
+.game-overview .radiant-dire .vs{
+    font-size: 44px;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    color: #FFF8E7;
+
 }
 
 .flex-1 .game-modes{
-    width: 100%;
-    height: 320px;
-    padding: 28px;
-    border-radius: 16px;
-    background-color: #1C222D;
-    border: 1px solid #2E3642;
+    width: 24%;
+    min-width: 280px;
+    height: 540px;
+    padding: 30px;
+    border-radius: 18px;
+    background-color: #1D2430;
+    border: 1px solid #8B1E1E;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
+
 }
 
+.flex-1 .game-modes .allpick{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.flex-1 .game-modes .rank{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.flex-1 .game-modes .turbo{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.flex-1 .game-modes .custom{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.flex-1 .game-modes h2{
+    font-family: "Cinzel", serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #f5f5f5;
+    margin-bottom: 36px;
+}
+
+
+.flex-1 .game-modes .modes h3{
+    font-family:"Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.flex-1 .game-modes .modes p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 190px;
+    color: #C4CBD6;
+}
+
+.flex-1 .game-modes .modes .custom{
+    padding-bottom: 30px;
+}
+
+
+.flex-1 .game-modes .modes i{
+    font-size: 22px;
+    color: #F4F1EA;
+    max-width: 34px;
+}
+
+
 .flex-1 .how-to-win{
-    width: 100%;
-    height: 320px;
-    padding: 28px;
-    border-radius: 16px;
-    background-color: #1C222D;
-    border: 1px solid #2E3642;
+    width: 24%;
+    min-width: 280px;
+    height: 540px;
+    /* padding: 36px; */
+    padding-top: 26px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 18px;
+    background-color: #1D2430;
+    border: 1px solid #8B1E1E;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
+}
+
+.flex-1 .how-to-win i{
+    font-size: 34px;
+}
+
+.flex-1 .how-to-win h2{
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-bottom: 32px;
+}
+
+.flex-1 .how-to-win .win-numbers h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF8E7;
+    margin-bottom: 8px;
+}
+
+.flex-1 .how-to-win .win-numbers p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+}
+
+.flex-1 .how-to-win .win-numbers .one{
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.flex-1 .how-to-win .win-numbers .two{
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.flex-1 .how-to-win .win-numbers .three{
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.flex-1 .how-to-win .win-numbers .four{
+    display: flex;
 }
 
 .flex-1 .map-overview{
-    width: 100%;
-    height: 320px;
-    padding: 28px;
-    border-radius: 16px;
-    background-color: #1C222D;
-    border: 1px solid #2E3642;
+    width: 24%;
+    min-width: 280px;
+    height: 540px;
+    padding: 30px;
+    border-radius: 18px;
+    background-color: #1D2430;
+    border: 1px solid #8B1E1E;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
 }
+
+.flex-1 .map-overview-details .map-head img{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid #3B4254;
+    padding: 8px;
+}
+
+.flex-1 .map-overview-details .map-head h2{
+    font-size: 20px;
+    font-family: "Cinzel", serif;
+    margin-bottom: 28px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.flex-1 .map-overview-details .map-details h3{
+    font-size: 16px;
+    font-family:  "Poppins", sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.flex-1 .map-overview-details .map-details .green{
+    display: flex;
+    gap: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .green i{
+    color: #4CAF50;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .red i{
+    color: #D32F2F;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .red{
+    display: flex   ;
+    gap: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .blue{
+    display: flex;
+    gap: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .blue i{
+    color: #42A5F5;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .orange{
+    display: flex;
+    gap: 16px;
+}
+
+.flex-1 .map-overview-details .map-details .orange i{
+    color: #F9A825;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+.flex-1 .map-overview-details .map-details p{
+    font-size: 12px;
+    font-family:  "Poppins", sans-serif;
+    color: #D8D8D8;
+    line-height: 1.5;
+}
+
+.flex-1 .map-overview-details .map-details i{
+    text-align: center;
+    color: red;
+}
+
+
+/* flex2 */
+
+.flex-2{
+    display: flex;
+    gap: 20px;
+}
+
+.flex-2 .key-objectives{
+    width: 42%;
+    height: 410px;
+    background-color: #202733;
+    border: 1px solid #A32020;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
+}
+
+.flex-2 .key-objectives h2{
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.key-objectives .objectives-details{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.key-objectives .objectives-details .tower img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+
+.key-objectives .objectives-details .roshan img{
+    width: 60px;
+    height: 60px;
+    /* margin-bottom: 20px; */
+    /* align-items: center; */
+}
+
+.key-objectives .objectives-details .barracks img{
+    width: 60px;
+    height: 60px;
+    /* margin-bottom: 20px; */
+    /* align-items: center; */
+}
+
+.key-objectives .objectives-details .tower img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+
+.key-objectives .objectives-details .ancient img{
+    width: 60px;
+    height: 60px;
+    /* margin-bottom: 20px; */
+    /* align-items: center; */
+}
+
+.key-objectives .objectives-details .roshan h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E53935;
+    margin-bottom: 16px;
+}
+
+.key-objectives .objectives-details .tower h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E53935;
+    margin-bottom: 16px;
+}
+
+.key-objectives .objectives-details .barracks h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E53935;
+    margin-bottom: 16px;
+}
+
+.key-objectives .objectives-details .ancient h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E53935;
+    /* margin-bottom: 16px; */
+}
+
+
+.key-objectives .objectives-details .tower{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: center  ;
+}
+
+.key-objectives .objectives-details .roshan{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.key-objectives .objectives-details .barracks{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.key-objectives .objectives-details .ancient{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.objectives-details .divider{
+    height: 200px;
+    width: 1px;
+    border: solid #8B1E1E 2px;
+    opacity: 40%;
+}
+
+
+.flex-2 .roles{
+    width: 35%;
+    height: 410px;
+    background-color: #202733;
+    border: 1px solid #A32020;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
+}
+
+.flex-2 .roles h2{
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.roles .roles-details{
+    display: grid;
+
+    /* Creates exactly 2 columns of equal width */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px 35px; 
+    break-inside: avoid;
+}
+
+.flex-2 .roles .roles-details .carry, .mid-laner, .off-lane, .hard-support, .support{
+    display: flex;
+    gap: 20px;
+}
+
+.roles-details img{
+    height: 48px;
+    width: 48px;
+    margin-bottom: 16px;
+}
+
+.roles .roles-details .carry h3{
+    font-family: "Cinzel", serif;
+    color: #F8F5F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.roles .roles-details .mid-laner h3{
+    font-family: "Cinzel", serif;
+    color: #F8F5F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.roles .roles-details .off-lane h3{
+    font-family: "Cinzel", serif;
+    color: #F8F5F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.roles .roles-details .hard-support h3{
+    font-family: "Cinzel", serif;
+    color: #F8F5F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.roles .roles-details .support h3{
+    font-family: "Cinzel", serif;
+    color: #F8F5F0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.roles .roles-details .support p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.roles .roles-details .carry p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.roles .roles-details .hard-support p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.roles .roles-details .off-lane p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.roles .roles-details .mid-laner p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #C7CDD8;
+    line-height: 1.6;
+    margin-top: 5px;
+}
+
+.flex-2 .did-you-know{
+    height: 410px;
+    width: 25%;
+    padding: 30px;
+    /* background-color: #202733; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/assets/gameinfo-images/dyn-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */  
+    border: 1px solid #A32020;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 12px 24px rgba(0,0,0,.45);
+}
+
+.flex-2 .did-you-know h2{
+    font-family: "Cinzel", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F5E8D8;
+    margin-bottom: 32px;
+}
+
+.flex-2 .did-you-know p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f5f5f5;
+    line-height: 1.6;
+    text-align: justify ;
+}
+
+
 
 
 
