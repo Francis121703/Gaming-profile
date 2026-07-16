@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #10141C;
+}
+
+header{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 145px;
+    padding-left: 40px;
+    padding-left: 40px;
+    background-color: #161B22;
+    border-radius: 14px;
+    border: solid 1px #5A1E1E;
+    box-shadow: 0px 4px 12px;
+}
+
+header .aboutme-logo img{
+    width: 180px;
+    height: auto;
+}
+header nav a{
+    text-decoration: none;
+    display: inline;
+    margin-right: 40px;
+    color: #f5f5f5;
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px ;   
+
+}
+
+header nav i{
+    color: #f5f5f5;
+    margin-right: 5px;
+    font-size: 16px;
+}
+header nav a:hover{
+    color: #D32F2F;
+}
+
+header nav .active{
+    color: #D32F2F;
+}
+
+main .community-head{
+    padding: 60px;
+    height: 380px;
+    width: 100%;
+    max-width: 1200px;
+    background-image: url(/assets/community-images/heores-background-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    margin-bottom: 60px;
+}
+
+main .community-head h1{
+    font-family: "Cinzel", serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+main .community-head p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #BFC6CF;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+main .community-head .why-join img{
+    height: 250px;
+    width: 250px;
+}
+
+.why-join{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    padding: 40px;
+}
+
+.why-join .why-join-details h2{
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.why-join .why-join-details p{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #BFC6CF;
+    line-height: 1.6;
+}
+
+main .social-media{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    max-width: 1200px;
+    gap: 24px;
+}
+
+.social-media .discord{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+    text-align: center;
+    border-radius: 18px;
+    border: 1px solid #5A1E1E; 
+}
+
+.social-media .steam{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+    text-align: center;
+    border-radius: 18px;
+    border: 1px solid #5A1E1E; 
+}
+
+.social-media .facebook{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+    text-align: center;
+    border-radius: 18px;
+    border: 1px solid #5A1E1E; 
+}
+
+.social-media .reddit{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+    text-align: center;
+    border-radius: 18px;
+    border: 1px solid #5A1E1E;
+}
+
+.social-media .discord i{
+   font-size: 64px;
+   color:#D32F2F; 
+}
+
+.social-media .steam i{
+   font-size: 64px;
+   color:#D32F2F; 
+}
+
+.social-media .facebook i{
+   font-size: 64px;
+   color:#D32F2F; 
+}
+
+.social-media .reddit i{
+   font-size: 64px;
+   color:#D32F2F; 
+}
+
+.social-media .discord h3{
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #F5F5F5;
+    font-family: "Cinzel", serif;
+    margin-bottom: 20px;
+}
+
+.social-media .steam h3{
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #F5F5F5;
+    font-family: "Cinzel", serif;
+    margin-bottom: 20px;
+}
+
+.social-media .facebook h3{
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #F5F5F5;
+    font-family: "Cinzel", serif;
+    margin-bottom: 20px;
+}
+
+.social-media .reddit h3{
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #F5F5F5;
+    font-family: "Cinzel", serif;
+    margin-bottom: 20px;
+}
+
+.social-media .discord p{
+    font-size: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+.social-media .steam p{
+    font-size: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+.social-media .facebook p{
+    font-size: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+.social-media .reddit p{
+    font-size: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #E8E8E8;
+    margin-bottom: 20px;
+}
+
+.social-media .links{
+    padding-top: 7px;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    max-width: 150px;
+    background-color: #C0392B;
+    border-radius: 20px;
+    border: 1px solid #5A1E1E;
+    margin-left: 55px;
+}
+
+.social-media .links a{
+    color: #F5F5F5;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-media .links a:hover{
+    color: #10141C;
+}
+
+
