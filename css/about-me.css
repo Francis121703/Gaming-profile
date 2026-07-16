@@ -12,7 +12,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 14px;
-    background-image: url(/assets/aboutme-images/about-me-background.png);
+    background-image: url(../assets/aboutme-images/about-me-background.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ main .aboutme-details p{
     border: solid 1px #5A1E1E;
     text-align: center;
     margin-bottom: 10px;
-    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-image: url(../assets/aboutme-images/info-box-card-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -155,7 +155,7 @@ main .aboutme-details p{
     border: solid 1px #5A1E1E;
     text-align: center;
     margin-bottom: 10px;
-    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-image: url(../assets/aboutme-images/info-box-card-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -188,7 +188,7 @@ main .aboutme-details p{
     text-align: center;
     margin-bottom: 10px;
     padding: 20px;
-    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-image: url(../assets/aboutme-images/info-box-card-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -221,7 +221,7 @@ main .aboutme-details p{
     text-align: center;
     margin-bottom: 10px;
     padding: 20px;
-    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-image: url(../assets/aboutme-images/info-box-card-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -253,7 +253,7 @@ main .aboutme-details p{
     text-align: center;
     margin-bottom: 10px;
     padding: 20px;
-    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-image: url(../assets/aboutme-images/info-box-card-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -285,7 +285,7 @@ main .aboutme-details p{
     text-align: center;
     margin-bottom: 10px;
     padding: 20px;
-    background-image: url(/assets/aboutme-images/info-box-card-img.png);
+    background-image: url(../assets/aboutme-images/info-box-card-img.png);
     background-position: center;
     background-repeat: no-repeat;
 }

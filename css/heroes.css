@@ -13,7 +13,7 @@ body{
         padding-left: 50px;
         padding-right: 50px;
     border-radius: 14px;
-    background-image: url(/assets/heroes-images/heores-background-img.png);
+    background-image: url(../assets/heroes-images/heores-background-img.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

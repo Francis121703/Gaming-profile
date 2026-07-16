@@ -64,7 +64,7 @@ main .community-head{
     height: 380px;
     width: 100%;
     max-width: 1200px;
-    background-image: url(/assets/community-images/heores-background-img.png);
+    background-image: url(../assets/community-images/heores-background-img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,7 +608,7 @@ main .social-media{
     height: 300px;
     padding: 70px;
     text-align: center;
-    background-image: url(/assets/community-images/baner-for-quote.png);
+    background-image: url(../assets/community-images/baner-for-quote.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

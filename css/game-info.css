@@ -71,7 +71,7 @@ main .head{
     padding-right: 70px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/gameinfo-images/background-of-main-head.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/gameinfo-images/background-of-main-head.png');
     background-position:center center ;
     background-repeat: no-repeat;
     margin-bottom: 50px;
@@ -706,7 +706,7 @@ main .head .head-details{
     width: 25%;
     padding: 30px;
     /* background-color: #202733; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/assets/gameinfo-images/dyn-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../assets/gameinfo-images/dyn-bg.jpg);
     background-repeat: no-repeat;
     /* background-position: center; */  
     border: 1px solid #A32020;

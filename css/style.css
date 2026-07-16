@@ -16,7 +16,7 @@ body{
 
 /*All styles for header*/
 header{
-    background-image: url(/assets/images/header-bg.jpg);
+    background-image: url(../assets/images/header-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -167,7 +167,7 @@ nav a:hover{
 }
 
 .first-article{
-    background-image: url(/assets/images/sf-aboutBG.jpg);
+    background-image: url(../assets/images/sf-aboutBG.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -473,7 +473,7 @@ nav a:hover{
 /* start of how to win a game design */
 
 .game-tips{
-    background-image: url(/assets/images/tips-background.png);
+    background-image: url(../assets/images/tips-background.png);
     background-position: end;
     background-repeat: no-repeat;
     height: 740px;
