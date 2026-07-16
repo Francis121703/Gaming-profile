@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/community.css">
         <title>Community</title>
@@ -91,19 +92,19 @@
                     <!--fill up for full name and email-->
                     <div class="fullname-email">
                         <div class="fullname">
-                            <label for="fname">Full Name</label>
+                            <label for="fname">Full Name :</label>
                             <input type="text" id="fname" placeholder="Your full name" required>
                         </div>
 
                         <div class="email">
-                            <label for="uemail">Email</label>
+                            <label for="uemail">Email :</label>
                             <input type="email" id="umail" placeholder="youremail@example.com" required>
                         </div>
                     </div>
 
                     <div class="country-currentr-favoriteh">
                         <div class="country">
-                            <label for="country">Country:</label>
+                            <label for="country">Country :</label>
                             <select name="country" id="country" required>
                                 <option value="" selected disabled>Select your country</option>
                                 <optgroup label="Southeast Asia">
@@ -167,7 +168,7 @@
 
                         <!--this division is for current rank and favorite heroes-->
                         <div class="current-rank">
-                            <label for="currentr">Current Rank<label>
+                            <label for="currentr">Current Rank :<label>
                             <select name="currentr" id="currentr" required>
                                 <option value="" selected disabled>Select your current rank</option>
                                 <optgroup label="Herald">
@@ -225,8 +226,9 @@
                                     <option value="elite">The Top 10 Elite</option>
                                 </optgroup>
                             </select>
-
-                            <label for="heroes">Favorite Hero</label>
+                        </div>
+                        <div class="favorite-hero">
+                            <label for="heroes">Favorite Hero :</label>
                             <select name="heroes" id="heroes">
                                 <option value="" selected disabled>Select a hero</option>
                                 <optgroup label="Agility">
@@ -345,7 +347,7 @@
 
                     <div class="preferredrole-experiencelvl-favoritesrvr">
                         <div class="preferred-role">
-                            <label for="pref-role">Preferred Role</label>
+                            <label for="pref-role">Preferred Role :</label>
                             <select name="pref-role" id="pref-role">
                                 <option value="" selected disabled>Select a role</option>
                                 <option value="">Carry</option>
@@ -357,7 +359,7 @@
                         </div>
 
                         <div class="experience-level">
-                            <label for="exp-level">Experience Level</label>
+                            <label for="exp-level">Experience Level :</label>
                             <select name="exp-level" id="exp-level">
                                 <option value="" selected disabled>Select your level</option>
                                 <option value="">I am a beginner</option>
@@ -368,7 +370,7 @@
                         </div>
 
                         <div class="favorite-server">
-                            <label for="fav-server">Favorite Server</label>
+                            <label for="fav-server">Favorite Server :</label>
                             <select name="fav-server" id="fav-server">
                                 <option value="" selected disabled>Select Region</option>
                                 <optgroup label="Asia & Oceana">
@@ -413,7 +415,7 @@
 
                     <div class="message">
                         <label for="message">Message (Optional)</label>
-                        <textarea name="message" id="message">Tell us something about yourself...</textarea>
+                        <textarea name="message" id="message" placeholder="Tell us something about yourself..."></textarea>
                     </div>
 
                     <div class="submit-button">
@@ -446,17 +448,17 @@
                 </div>
 
                 <div class="rank">
-                    <i class="bi bi-trophy-fill"></i>
+                    <i class="bi bi-trophy"></i>
                     <h3>Legend</h3>
                     <p class="subtitle">Average rank</p>
                     <p class="details">Average rank across all regions</p>
                 </div>
             </section>
             
-            <article class="community-quote">
-                <h4><span>"</span> The strength of Dota isn't just the heroes it's the players behind them. <span>"</span></h4>
-                <p>Dota 2 Community</p>
-            </article>
+            <section class="community-quote">
+                <h4><span>"</span>Power isn't measured by strength — <br>it's measured by the souls I claim.<span>"</span></h4>
+                <p>—Shadow Fiend</p>
+            </section>
         </main>    
     </body>
 </html>
